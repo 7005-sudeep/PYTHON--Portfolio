@@ -1,0 +1,13 @@
+def analyze size(arr):
+if not arr:
+return none,none
+
+max_val= arr[0]
+min_val= arr[0]
+for value in arr
+if val>max _val;
+val=max_val
+If val<min_val;
+val=min_val
+
+retun min_val, max_val
