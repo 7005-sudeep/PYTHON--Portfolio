@@ -1,0 +1,20 @@
+//IMP : for reversing any array just we have to only go upto middle number so we can reverse //
+
+def reverse_array(arr):
+    n = len(arr)
+    # 
+    for i in range(n // 2): // as only go upto middle for reversing 
+        # Calculate the "mirror" index from the end
+        mirror_index = n - 1 - i /// here i am reversing the elements
+        
+        # Perform the swap using list indexing []
+        temp = arr[i]
+        arr[i] = arr[mirror_index] //just fulfulling the temp variable 
+        arr[mirror_index] = temp
+        
+    return arr
+
+# Verification Test:
+data_packet = [0xDE, 0xAD, 0xBE, 0xEF]
+print(f"Before: {data_packet}")
+print(f"After:  {reverse_array(data_packet)}")
