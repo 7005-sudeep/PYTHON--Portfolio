@@ -1,0 +1,18 @@
+def find_duplicate(ids):// here in this code history[] is block of elements and id array we are finding elemets of id tid in history if we found then it will display it in using if else 
+    history = []
+    
+    for tid in ids:
+        if tid in history:
+            return tid  # Return the value immediately
+        history.append(tid)
+        
+    return None # Return None if no duplicates are found
+
+
+bus_traffic = [10, 25, 30, 45, 25, 60]
+result = find_duplicate(bus_traffic)
+
+if result:
+    print(f"Collision detected at ID: {result}")
+else:
+    print("Clean bus traffic!")
