@@ -2,7 +2,7 @@ def find_missing_packet(nums):
     n = len(nums)
     
     # 1. Calculate the sum that SHOULD exist (0 to n) //based on numbers if only we have even/odd we need to change the logic 
-    # In Python, // is used for integer division
+    
     expected_sum = (n * (n + 1)) // 2
     
     # 2. Calculate the actual sum of the list
