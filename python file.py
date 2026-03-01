@@ -1,11 +1,11 @@
 Pillar 1: The "Hardware Data" (Arrays & Lists)
 These test your ability to handle streams of transaction data.
 
-Move Zeros to End: (We did this!) Squeezing out bubbles in a pipeline.
+Move Zeros to End: (We did this!) Squeezing out bubbles in a pipeline.//complete
 
-Two Sum: (We did this!) Checking address pairs.
+Two Sum: (We did this!) Checking address pairs. //complete
 
-Majority Element: (We did this!) Arbiter/Voting logic.
+Majority Element: (We did this!) Arbiter/Voting logic. //complete
 
 Missing Number: (We did this!) Dropped packet detection.
 
