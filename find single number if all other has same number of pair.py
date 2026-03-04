@@ -4,7 +4,7 @@ def find_single_number(nums):
     res = 0
     
     for x in nums:
-        # Apply XOR: res = res ^ x
+        # Apply XOR: res = res ^ x #xor gate truth table#
         res =res ^ x
         
     return res
