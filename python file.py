@@ -11,9 +11,9 @@ Missing Number: (We did this!) Dropped packet detection.
 
 Contains Duplicate: (We did this!) Scoreboard collision check.
 
-Best Time to Buy/Sell Stock: Finding max delta (latency/throughput analysis).
+Best Time to Buy/Sell Stock: Finding max delta (latency/throughput analysis). #complete
 
-Rotate Array: Mimicking a circular buffer or barrel shifter.
+Rotate Array: Mimicking a circular buffer or barrel shifter. #complete
 
 Merge Sorted Arrays: Combining two sorted data streams (Arbiter logic).
 
