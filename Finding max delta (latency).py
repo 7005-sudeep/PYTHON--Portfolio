@@ -1,3 +1,5 @@
+# differnce between max-min 
+
 def find_max_performance_delta(data_points):
     # Initialize 'min_val' to infinity so any first number is smaller
     min_val = float('inf') 
