@@ -1,3 +1,6 @@
+#here in rhis code we just me entire belt 0 bits and result tells us howmany bits required to amke it entire 0 using and opertor
+
+
 def count_set_bits(n):
     count = 0
     
