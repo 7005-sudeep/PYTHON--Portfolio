@@ -112,3 +112,65 @@ File I/O: Reading a CSV of register values and writing a Python Dictionary.
 Lambda Functions: Sorting transactions by timestamp using a one-liner.
 
 List Comprehension: Filtering all "Write" transactions from a list of "Read/Write".
+
+
+
+
+#advanced
+
+Pillar 6: The "System Architect" (Advanced Python)
+These problems bridge the gap between "scripting" and "building a verification framework."
+
+The "Producer-Consumer" Simulator (asyncio):
+
+The Task: Use asyncio to simulate a Master (Producer) sending data to a FIFO and a Slave (Consumer) reading from it at different speeds.
+
+Why: This mimics how Cocotb works. It tests your understanding of non-blocking code and "Simulated Time."
+
+LRU Cache (Least Recently Used):
+
+The Task: Implement an LRU Cache using an OrderedDict or a combination of a Dictionary and Double Linked List.
+
+Why: This is a classic "Computer Architecture" interview question. It’s exactly how CPU caches decide which data to evict.
+
+The "Big Log" Generator (Generators & Iterators):
+
+The Task: Write a generator function yield that reads a 10GB log file line-by-line without loading the whole file into memory.
+
+Why: A common "Senior" interview trap is asking you to parse a file larger than your RAM. If you use file.read(), you fail. You must use yield.
+
+Deep vs. Shallow Copy Scoreboard:
+
+The Task: Create a nested transaction object (a packet inside a frame). Show the difference between copy.copy() and copy.deepcopy() when adding it to a scoreboard.
+
+Why: In UVM/Python, if you don't deep-copy transactions, your scoreboard will end up with "pointers" to the same object, corrupting your results.
+
+DPI-C Wrapper (Type Hinting & ctypes):
+
+The Task: Use the ctypes library to call a basic C function from Python.
+
+Why: This is the Python equivalent of DPI-C. It proves you can interface with "Golden Models" written in C++.
+
+Pillar 7: The "Regex Master" (Extreme Log Parsing)
+Basic re.search isn't enough for Google/NVIDIA.
+
+Multi-line Error Extraction:
+
+The Task: In a log, an error starts with "ERROR: Code 0x..." and the details are on the next 3 lines. Use Regex to capture the code and the 3 lines of details together.
+
+Why: Real hardware errors are rarely on a single line.
+
+Clock Cycle Calculator:
+
+The Task: Given a log where every line has a timestamp [10230 ns], calculate the delta (difference) between the first "Request" and the final "Acknowledgment" in clock cycles (assuming a 100MHz clock).
+
+Pillar 8: "Cocotb" Style Coding
+Since you know UVM, you should try the "Python version" of UVM.
+
+Implement a "Monitor" Class: * Create a class that "observes" a list of transactions. It should have a Callback mechanism where it notifies a Scoreboard every time it sees a new valid packet.
+
+Decorator for Coverage:
+
+Write a Python Decorator @log_call that prints the arguments of a function every time it is called.
+
+Why: This is how "Functional Coverage" is often implemented in Python-based verification environments.
