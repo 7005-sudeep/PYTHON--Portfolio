@@ -15,18 +15,18 @@ Best Time to Buy/Sell Stock: Finding max delta (latency/throughput analysis). #c
 
 Rotate Array: Mimicking a circular buffer or barrel shifter. #complete
 
-Merge Sorted Arrays: Combining two sorted data streams (Arbiter logic).
+Merge Sorted Arrays: Combining two sorted data streams (Arbiter logic).#complete
 
-Find the "Single" Number: Use XOR to find a non-repeated ID.
+Find the "Single" Number: Use XOR to find a non-repeated ID. #complete
 
-Intersection of Two Arrays: Finding common addresses in two memory maps.
+Intersection of Two Arrays: Finding common addresses in two memory maps. #complete
 
-Pillar 2: The "Bit-Smasher" (Bitwise Operations)
+Pillar 2: The "Bit-Smasher" (Bitwise Operations) #complete
 This is the #1 skill for ASIC engineers. Python handles bits differently than Verilog!
 
-Count Set Bits: Calculate parity (Hamming weight).
+Count Set Bits: Calculate parity (Hamming weight).# complete
 
-Reverse Bits: Endianness conversion (Big-Endian to Little-Endian).
+Reverse Bits: Endianness conversion (Big-Endian to Little-Endian). #complete
 
 Power of Two: Check if an address is aligned to a power of 2.
 
