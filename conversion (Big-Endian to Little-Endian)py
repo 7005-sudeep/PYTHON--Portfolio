@@ -1,0 +1,26 @@
+def reverse_endian_32(n):
+    # Mask and shift each byte to its new home
+    
+    # 0x000000FF is the mask for the lowest 8 bits
+    byte0 = (n & 0x000000FF) << 24 
+    
+    # 0x0000FF00 is the mask for the second byte
+    byte1 = (n & 0x0000FF00) << 8
+    
+    # 0x00FF0000 is the mask for the third byte
+    byte2 = (n & 0x00FF0000) >> 8
+    
+    # 0xFF000000 is the mask for the highest 8 bits
+    byte3 = (n & 0xFF000000) >> 24
+    
+    # Combine them all back using OR (|)
+    return byte0 | byte1 | byte2 | byte3
+
+# --- Testbench ---
+# Input: 0x12345678 (Big-Endian style)
+# Output: 0x78563412 (Little-Endian style)
+val = 0x12345678
+swapped = reverse_endian_32(val)
+
+print(f"Original: {hex(val)}")
+print(f"Swapped:  {hex(swapped)}")
