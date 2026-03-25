@@ -30,9 +30,9 @@ Reverse Bits: Endianness conversion (Big-Endian to Little-Endian). #complete
 
 Power of Two: Check if an address is aligned to a power of 2. #complete 
 
-Bitwise Swap: Swap two numbers without a temp variable using XOR.
+Bitwise Swap: Swap two numbers without a temp variable using XOR. #complete
 
-Extract Bitfield: Given (val, high, low), extract specific bits.
+Extract Bitfield: Given (val, high, low), extract specific bits. #complete
 
 Isolate Rightmost Set Bit: Common in priority encoders.
 
