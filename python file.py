@@ -34,7 +34,7 @@ Bitwise Swap: Swap two numbers without a temp variable using XOR. #complete
 
 Extract Bitfield: Given (val, high, low), extract specific bits. #complete
 
-Isolate Rightmost Set Bit: Common in priority encoders.
+Isolate Rightmost Set Bit: Common in priority encoders. #complete
 
 Gray Code to Binary: Converting sensor data or CDC pointers.
 
