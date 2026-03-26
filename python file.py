@@ -36,7 +36,7 @@ Extract Bitfield: Given (val, high, low), extract specific bits. #complete
 
 Isolate Rightmost Set Bit: Common in priority encoders. #complete
 
-Gray Code to Binary: Converting sensor data or CDC pointers.
+Gray Code to Binary: Converting sensor data or CDC pointers. #complete
 
 Find the Non-Repeating Bit: XOR magic with multiple numbers.
 
