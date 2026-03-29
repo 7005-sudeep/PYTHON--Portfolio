@@ -40,7 +40,7 @@ Gray Code to Binary: Converting sensor data or CDC pointers. #complete
 
 Find the Non-Repeating Bit: XOR magic with multiple numbers. #complete
 
-Check Parity: Return 1 if odd number of bits are set.
+Check Parity: Return 1 if odd number of bits are set. #complete
 
 Set/Clear/Toggle a Bit: Basic register manipulation.
 
