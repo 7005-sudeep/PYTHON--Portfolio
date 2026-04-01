@@ -42,7 +42,7 @@ Find the Non-Repeating Bit: XOR magic with multiple numbers. #complete
 
 Check Parity: Return 1 if odd number of bits are set. #complete
 
-Set/Clear/Toggle a Bit: Basic register manipulation.
+Set/Clear/Toggle a Bit: Basic register manipulation. #complete
 
 Pillar 3: The "Log Parser" (Strings & Files)
 Verification engineers spend 50% of their time reading .log files.
