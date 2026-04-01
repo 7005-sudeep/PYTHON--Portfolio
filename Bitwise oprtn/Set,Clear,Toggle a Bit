@@ -1,0 +1,18 @@
+# set: we used or oprtn as it focr to be 1
+# clear we used and opertion then negaete it as it make it to 0
+# toggle: simpky used xor oprtion as it make 1 to 0 or viceversa
+
+# Force bit 3 to be 1
+register = 0b0000
+mask = (1 << 3)     # 0b1000
+register |= mask    # Result: 0b1000
+
+# Force bit 3 to be 0
+register = 0b1111
+mask = ~(1 << 3)    # 0b0111
+register &= mask    # Result: 0b0111
+
+# Flip bit 3 (If 1 -> 0, if 0 -> 1)
+register = 0b1000
+mask = (1 << 3)     # 0b1000
+register ^= mask    # Result: 0b0000
