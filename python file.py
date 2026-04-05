@@ -51,7 +51,7 @@ Search for "ERROR": Scan a 1GB file and print lines containing "Fatal".#complete
 
 Extract Hex Values: Use Regular Expressions (Regex) to find all 0x addresses in a log.#complete
 
-Valid Palindrome: Checking if a data packet is symmetrical.
+Valid Palindrome: Checking if a data packet is symmetrical.#complete
 
 Longest Common Prefix: Finding commonality in paths (e.g., top.dut.bank0...).
 
