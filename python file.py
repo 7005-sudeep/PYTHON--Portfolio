@@ -45,9 +45,9 @@ Check Parity: Return 1 if odd number of bits are set. #complete
 Set/Clear/Toggle a Bit: Basic register manipulation. #complete
 
 Pillar 3: The "Log Parser" (Strings & Files)
-Verification engineers spend 50% of their time reading .log files.
 
-Search for "ERROR": Scan a 1GB file and print lines containing "Fatal".
+
+Search for "ERROR": Scan a 1GB file and print lines containing "Fatal".#complete
 
 Extract Hex Values: Use Regular Expressions (Regex) to find all 0x addresses in a log.
 
