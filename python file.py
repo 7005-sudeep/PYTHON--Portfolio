@@ -53,7 +53,7 @@ Extract Hex Values: Use Regular Expressions (Regex) to find all 0x addresses in 
 
 Valid Palindrome: Checking if a data packet is symmetrical.#complete
 
-Longest Common Prefix: Finding commonality in paths (e.g., top.dut.bank0...).
+Longest Common Prefix: Finding commonality in paths (e.g., top.dut.bank0...). #complete
 
 Reverse Words in String: Reordering packet headers.
 
