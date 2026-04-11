@@ -55,7 +55,7 @@ Valid Palindrome: Checking if a data packet is symmetrical.#complete
 
 Longest Common Prefix: Finding commonality in paths (e.g., top.dut.bank0...). #complete
 
-Reverse Words in String: Reordering packet headers.
+Reverse Words in String: Reordering packet headers. #complete
 
 String to Integer (Atoi): Converting log strings to hex/decimal values.
 
