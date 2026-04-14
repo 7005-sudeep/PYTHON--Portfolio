@@ -57,7 +57,7 @@ Longest Common Prefix: Finding commonality in paths (e.g., top.dut.bank0...). #c
 
 Reverse Words in String: Reordering packet headers. #complete
 
-String to Integer (Atoi): Converting log strings to hex/decimal values.
+String to Integer (Atoi): Converting log strings to hex/decimal values.#complete
 
 Frequency Count: Count how many times each Error Code appears in a regression.
 
