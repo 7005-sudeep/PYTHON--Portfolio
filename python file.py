@@ -59,7 +59,7 @@ Reverse Words in String: Reordering packet headers. #complete
 
 String to Integer (Atoi): Converting log strings to hex/decimal values.#complete
 
-Frequency Count: Count how many times each Error Code appears in a regression.
+Frequency Count: Count how many times each Error Code appears in a regression.#complete
 
 Anagram Check: Do two packets contain the same data in different orders?
 
