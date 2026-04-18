@@ -61,7 +61,7 @@ String to Integer (Atoi): Converting log strings to hex/decimal values.#complete
 
 Frequency Count: Count how many times each Error Code appears in a regression.#complete
 
-Anagram Check: Do two packets contain the same data in different orders?
+Anagram Check: Do two packets contain the same data in different orders? #complete
 
 Valid Parentheses: Check if your simulation "Begin/End" or "{ }" are balanced.
 
